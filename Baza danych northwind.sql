@@ -1,4 +1,4 @@
-#1 Wyświetl wszystkie dane o 
+#1 Wyświetl wszystkie dane o produktach
 select *
 from employees;
 
