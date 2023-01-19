@@ -1,4 +1,4 @@
-#1 Wyświetl wszystkie dane o produktach
+#1 Wyświetl wszystkie dane o pracownikach.
 select *
 from employees;
 
@@ -77,3 +77,7 @@ FROM products order by standard_cost ASC;
 #17Zaprezentuj wszystkie produkty posortowane od najmniejszej ceny zakupu (standard_cost) i największej ceny sprzedaży (list_price).
 SELECT*
 FROM products order by standard_cost ASC,list_price desc;
+
+#18Podaj listę zawodów (nie mogą się powtarzać), jakie posiadają nasi klienci.
+select distinct (job_title) 
+from customers;
